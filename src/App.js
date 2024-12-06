@@ -108,7 +108,7 @@ function Friend({ friend, onselection, selectedFriend }) {
 
       {friend.balance < 0 && (
         <p className="red">
-          you owe {friend.name} {Math.abs(friend.balance)}
+          you owe {friend.name} ${Math.abs(friend.balance)}
         </p>
       )}
 
